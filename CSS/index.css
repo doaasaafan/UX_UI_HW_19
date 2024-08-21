@@ -7,7 +7,7 @@ body {
     padding: 0; 
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif; 
-  
+ 
 } 
 
 /* Header Navbar Styles */
@@ -18,7 +18,7 @@ body {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    background-image: linear-gradient(90deg, #52c4eb, #53C8B6, #35A99C); 
+    background-image: linear-gradient( #52c4eb, #53C8B6, #35A99C); 
     background-color: transparent; 
 } 
 .logo { 
@@ -57,8 +57,8 @@ body {
 } 
 /* Main Hero Section Styles */
 
-.hero { 
-    background-image: linear-gradient(90deg, #edf3f3, #c5f2eb, #edf3f3); 
+/*.hero { 
+    background-image: linear-gradient( #edf3f3, #c5f2eb, #edf3f3); 
     background-color: transparent; 
     width: 100%; 
     height: 40vh; 
@@ -69,33 +69,24 @@ body {
     margin-bottom: 0.5em;
 } 
 
-.hero .intro { 
-    text-align: center; 
-    margin:  3rem; 
-    color: #000;
-} 
 
-.hero .intro-button { 
-    margin: 2rem 0; 
-    display: flex; 
-    align-items:center;
-    padding-left: 70px;
- 
-} 
+
+ */
 /* About section styles */
 .about { 
     display: flex; 
     align-items: center; 
-    background-image: linear-gradient(45deg, #52c4eb, #2794B3); 
+    /*background-image: linear-gradient(45deg, #52c4eb, #2794B3); */
+    background-image: linear-gradient(#7ddaf1, #c5f2eb, #edf3f3);
     justify-content: space-between; 
     width: 100%;
-    
+    padding-top: 5rem;
     
 } 
 
 .about .about-text { 
     width: 450px; 
-    color: #fff; 
+    color: #022b2c; 
     padding: 5rem 1rem 5rem 5rem; 
 } 
 
@@ -103,7 +94,28 @@ body {
     height: 400px; 
     width: 300px; 
     padding: 5rem 5rem 5rem 1rem; 
+   
 } 
+.about-text { 
+    text-align: center; 
+    margin:  3rem; 
+    color: #022b2c;
+} 
+ .about-text.intro-button { 
+    margin: 3rem 0; 
+    display: flex; 
+    padding-left: 70px;
+   
+}
+about-text.banner-social i {
+    color: rgb(26, 93, 91);
+    cursor: pointer;
+    font-size: 25px;
+    align-items:center;
+    margin-right: 15px;
+  }
+
+  
 
  
 /* Skills section styles */
@@ -139,7 +151,7 @@ body {
     background-image: linear-gradient(#74D7BB, #53C8B6, #35A99C); 
     padding: 1em; 
     width:300px;
-    height:500px
+    height:650px
 
 } 
 
@@ -159,13 +171,19 @@ body {
     color: #fff;   
 
 } 
+.icon.small-para{
+   text-align: left;
+}
 
 /* work section styles */
 
 .projects { 
     margin: 2.8rem 0; 
-    padding: 0 5rem; 
+    padding: 0 5rem;
+
 }
+
+
 
 .port-card { 
     
@@ -213,7 +231,8 @@ body {
 
 
 .contact { 
-    padding: 0 5rem; 
+    padding: 5 5rem; 
+   
 } 
 
 .contact-content { 
@@ -225,32 +244,37 @@ body {
 } 
 
 .contact-form-container { 
-    width: 50%; 
-    padding: 30px 30px 30px 30px;
-    
+    width:80%; 
+    padding: 40px 30px 30px 30px;
+  
 } 
 
 .contact-form { 
     display: flex; 
     flex-direction: column; 
     padding-top: 30px;
+   
 } 
 
 .contact-form .form-controls { 
     width: 80%; 
     padding: 10px 0; 
-    margin: .67rem 0; 
-    
+    margin: 0.75rem 0; 
+    padding-left: 10px;
+    border-radius: 10px;
+    border-color: #35A99C ;
 } 
 
 .contact-form .form-btn { 
-    width: 83%; 
-
+    width: 82%; 
+    border-radius: 10px;
+   
+    
 } 
 
 .contact-details { 
     width: 50%; 
-    padding-top: 30px;
+    padding-top: 40px;
 } 
 
 /* Footer Styles */

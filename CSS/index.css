@@ -95,12 +95,10 @@ body {
 .about .about-image img { 
     height: 400px; 
     width: 300px; 
-    padding: 5rem 5rem 5rem 1rem; 
-    border-image: url/images/ 20240713_ 183500jpg 30 round;
-
-
+    padding: 5rem 5rem 5rem 1rem;
    
 } 
+
 .about-text { 
     text-align: center;
     margin:  3rem; 

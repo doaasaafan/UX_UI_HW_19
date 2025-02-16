@@ -96,10 +96,13 @@ body {
     height: 400px; 
     width: 300px; 
     padding: 5rem 5rem 5rem 1rem; 
+    border-image: url/images/ 20240713_ 183500jpg 30 round;
+
+
    
 } 
 .about-text { 
-    text-align: center; 
+    text-align: center;
     margin:  3rem; 
     color: #022b2c;
 } 
@@ -233,20 +236,20 @@ about-text.banner-social i {
 
 
 .contact { 
-    padding: 5 5rem; 
+    padding:  1rem; 
    
 } 
 
 .contact-content { 
     display: flex; 
     margin: 3rem 0; 
-    justify-content: space-between; 
+    justify-content: space-between;
     background-image: linear-gradient(90deg, #99d6d6, #c5f2eb, #99d6d6); 
   
 } 
 
 .contact-form-container { 
-    width:80%; 
+    width:83%; 
     padding: 40px 30px 30px 30px;
   
 } 
@@ -259,7 +262,7 @@ about-text.banner-social i {
 } 
 
 .contact-form .form-controls { 
-    width: 80%; 
+    width: 82%; 
     padding: 10px 0; 
     margin: 0.75rem 0; 
     padding-left: 10px;
@@ -276,7 +279,8 @@ about-text.banner-social i {
 
 .contact-details { 
     width: 50%; 
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
 } 
 
 /* Footer Styles */

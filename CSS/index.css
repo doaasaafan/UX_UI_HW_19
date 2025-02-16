@@ -18,7 +18,7 @@ body {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    background-image: linear-gradient( #52c4eb, #53C8B6, #35A99C); 
+    background-image: linear-gradient( #52c4eb, #53C8B6, #35A99C);
     background-color: transparent; 
 } 
 .logo { 
@@ -50,6 +50,8 @@ body {
 .menu-list .menu-list-items { 
     padding: 0.5rem 1rem; 
 } 
+
+
 @media screen and (min-width: 856px) and (max-width: 1024px) { 
     .menu-list .menu-list-items { 
         padding: 0.5rem 0.3rem; 
@@ -286,7 +288,7 @@ about-text.banner-social i {
     margin:2rem 0; 
     position: absolute;
     z-index: 1000;
-    height: 150px;
+    height: 100px;
     left:0;
 } 
 
